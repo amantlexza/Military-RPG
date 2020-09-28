@@ -33,10 +33,19 @@ CREATE TABLE Section
 (
 SectionID int primary key Identity(101,1),
 SectionName varchar(50),
+PrioriyLevel int )
+
+
+--Secondary Table for Camp x Sections 
+CREATE TABLE CampSection
+(
+CampSectionID int primary key Identity(101,1),
 TargetY int,
 TargetX int,
-PrioriyLevel int,
-CampID int FOREIGN KEY References Camp(CampID) )
+CampID int FOREIGN KEY References Camp(CampID),
+SectionID int FOREIGN KEY References Section(SectionID)
+)
+
 
 --Table for Inventory
 CREATE TABLE Inventory
