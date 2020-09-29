@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Military_RPG
 {
-    public partial class Form1 : Form
+    public partial class Obstacles : Form
     {
-        public Form1()
+        public Obstacles()
         {
             InitializeComponent();
         }
-
     }
 }
