@@ -42,5 +42,13 @@ namespace Military_RPG
             typeLbl.Text = "Ammunition Type";
             AddBtn.Show();
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            //Previous form
+            AirCraftForm airCraftForm = new AirCraftForm();
+            airCraftForm.Show();
+            this.Hide();
+        }
     }
 }

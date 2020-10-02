@@ -29,5 +29,12 @@ namespace Military_RPG
         {
 
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            AmmunitionForm ammunitionForm = new AmmunitionForm();
+            ammunitionForm.Show();
+            this.Hide();
+        }
     }
 }
