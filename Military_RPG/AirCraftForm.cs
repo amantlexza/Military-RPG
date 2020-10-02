@@ -18,30 +18,29 @@ namespace Military_RPG
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvFromDB_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
         private void AirCraft_Load(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Server=DESKTOP-LATTHOF\AMANTLE; Initial Catalog=MilitaryDB; Integrated Security=SSPI");
-            try
-            {
-                connection.Open();
-                SqlCommand command = new SqlCommand("Select * From Aircraft", connection);
-                SqlDataReader reader = command.ExecuteReader();
-                BindingSource source = new BindingSource();
-                source.DataSource = reader;
-                dataGridView1.DataSource = source;
-                connection.Close();
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message);
-            }
+            DataHandler inventoryData = new DataHandler();
+            dgvFromDB.DataSource = inventoryData.populateAirCraftDGV();
 
         }
+
+        private void SubmitBtn_Click(object sender, EventArgs e)
+        {
+
+            //Save to DB
+
+            //Open New Form, close current
+            AmmunitionForm ammunitionForm = new AmmunitionForm();
+            ammunitionForm.Show();
+            this.Hide();
+           
+        }
+
     }
 }

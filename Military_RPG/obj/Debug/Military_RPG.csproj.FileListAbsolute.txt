@@ -10,3 +10,4 @@ C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.ex
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.pdb
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.AirCraftForm.resources
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.InventoryForm.resources
+C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.AmmunitionForm.resources

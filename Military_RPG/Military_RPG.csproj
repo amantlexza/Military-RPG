@@ -53,6 +53,13 @@
     <Compile Include="AirCraftForm.Designer.cs">
       <DependentUpon>AirCraftForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ammunition.cs" />
+    <Compile Include="AmmunitionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmmunitionForm.Designer.cs">
+      <DependentUpon>AmmunitionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventory.cs" />
     <Compile Include="DataHandler.cs" />
     <Compile Include="Form1.cs">
@@ -71,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AirCraftForm.resx">
       <DependentUpon>AirCraftForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmmunitionForm.resx">
+      <DependentUpon>AmmunitionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
