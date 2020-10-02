@@ -25,15 +25,12 @@ namespace Military_RPG
 
             DataGridViewRow row = dgvFromDB.Rows[rowIndex];
            
-                airCraftLbl.Text = Convert.ToString(row.Cells[0].Value);
-                fuelLbl.Text = Convert.ToString(row.Cells[1].Value);
-                altitudeLbl.Text = Convert.ToString(row.Cells[2].Value);
-                speedLbl.Text = Convert.ToString(row.Cells[3].Value);
-                maxWeightLbl.Text = Convert.ToString(row.Cells[4].Value);
-                altitudeLbl.Text = Convert.ToString(row.Cells[5].Value);
-           
-            
-
+            airCraftLbl.Text = Convert.ToString(row.Cells[0].Value);
+            fuelLbl.Text = Convert.ToString(row.Cells[1].Value);
+            altitudeLbl.Text = Convert.ToString(row.Cells[2].Value);
+            speedLbl.Text = Convert.ToString(row.Cells[3].Value);
+            maxWeightLbl.Text = Convert.ToString(row.Cells[4].Value);
+            altitudeLbl.Text = Convert.ToString(row.Cells[5].Value);
         }
 
         private void AirCraft_Load(object sender, EventArgs e)

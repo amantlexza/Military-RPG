@@ -27,6 +27,15 @@ namespace Military_RPG
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Populate type lbl
+            name.Text = "Inventory Name";
+            Weight.Text = "Weight";
+            // show button
+            AddBtn.Show();
+            //Declare object 
+            DataGridViewRow row = dgvFromDB.Rows[e.RowIndex];
+            nameLbl.Text = row.Cells[1].Value.ToString();
+            weightLbl.Text = row.Cells[1].Value.ToString();
 
         }
 
@@ -34,6 +43,18 @@ namespace Military_RPG
         {
             AmmunitionForm ammunitionForm = new AmmunitionForm();
             ammunitionForm.Show();
+            this.Hide();
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Obstacles obstacles = new Obstacles();
+            obstacles.Show();
             this.Hide();
         }
     }

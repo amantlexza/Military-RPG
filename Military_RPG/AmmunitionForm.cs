@@ -39,8 +39,14 @@ namespace Military_RPG
 
         private void dgvFromDB_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Populate type lbl
             typeLbl.Text = "Ammunition Type";
+            // show button
             AddBtn.Show();
+            //Declare object 
+            DataGridViewRow row = dgvFromDB.Rows[e.RowIndex];
+            AmmunitionText.Text = row.Cells[1].Value.ToString();
+
         }
 
         private void BackBtn_Click(object sender, EventArgs e)
