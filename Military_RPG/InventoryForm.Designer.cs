@@ -34,7 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BackBtn = new System.Windows.Forms.Button();
             this.nameLbl = new System.Windows.Forms.Label();
-            this.Name = new System.Windows.Forms.Label();
+            this.name = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
             this.weightLbl = new System.Windows.Forms.Label();
             this.Weight = new System.Windows.Forms.Label();
@@ -68,8 +68,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 44);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Save And Continue";
+            this.button1.Text = " Continue";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -99,13 +100,13 @@
             this.nameLbl.Size = new System.Drawing.Size(0, 13);
             this.nameLbl.TabIndex = 12;
             // 
-            // Name
+            // name
             // 
-            this.Name.AutoSize = true;
-            this.Name.Location = new System.Drawing.Point(449, 172);
-            this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(0, 13);
-            this.Name.TabIndex = 11;
+            this.name.AutoSize = true;
+            this.name.Location = new System.Drawing.Point(449, 172);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(0, 13);
+            this.name.TabIndex = 11;
             // 
             // AddBtn
             // 
@@ -113,8 +114,9 @@
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(136, 44);
             this.AddBtn.TabIndex = 10;
-            this.AddBtn.Text = "Add to Craft";
+            this.AddBtn.Text = "Add ";
             this.AddBtn.UseVisualStyleBackColor = true;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // weightLbl
             // 
@@ -141,7 +143,7 @@
             this.Controls.Add(this.weightLbl);
             this.Controls.Add(this.Weight);
             this.Controls.Add(this.nameLbl);
-            this.Controls.Add(this.Name);
+            this.Controls.Add(this.name);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.label1);
@@ -165,7 +167,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BackBtn;
         private System.Windows.Forms.Label nameLbl;
-        private System.Windows.Forms.Label Name;
+        private new System.Windows.Forms.Label name;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Label weightLbl;
         private System.Windows.Forms.Label Weight;
