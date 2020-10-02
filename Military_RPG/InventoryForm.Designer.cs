@@ -41,7 +41,7 @@
             // 
             this.dgvFromDB.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.dgvFromDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFromDB.Location = new System.Drawing.Point(12, 122);
+            this.dgvFromDB.Location = new System.Drawing.Point(48, 124);
             this.dgvFromDB.Name = "dgvFromDB";
             this.dgvFromDB.Size = new System.Drawing.Size(341, 316);
             this.dgvFromDB.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(294, 19);
+            this.label2.Location = new System.Drawing.Point(330, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 33);
             this.label2.TabIndex = 5;
@@ -62,14 +62,14 @@
             // 
             this.dgvToDB.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.dgvToDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvToDB.Location = new System.Drawing.Point(359, 122);
+            this.dgvToDB.Location = new System.Drawing.Point(395, 124);
             this.dgvToDB.Name = "dgvToDB";
             this.dgvToDB.Size = new System.Drawing.Size(341, 316);
             this.dgvToDB.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(293, 444);
+            this.button1.Location = new System.Drawing.Point(329, 446);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 44);
             this.button1.TabIndex = 7;
@@ -80,7 +80,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.label1.Location = new System.Drawing.Point(150, 74);
+            this.label1.Location = new System.Drawing.Point(186, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(458, 20);
             this.label1.TabIndex = 8;
@@ -91,7 +91,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Olive;
-            this.ClientSize = new System.Drawing.Size(709, 495);
+            this.ClientSize = new System.Drawing.Size(804, 502);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvToDB);

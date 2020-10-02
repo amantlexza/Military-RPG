@@ -17,15 +17,30 @@ namespace Military_RPG
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
+        
         private void AmmunitionForm_Load(object sender, EventArgs e)
         {
             DataHandler inventoryData = new DataHandler();
             dgvFromDB.DataSource = inventoryData.populateAmmoDGV();
+            AddBtn.Hide();
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ContBtn_Click(object sender, EventArgs e)
+        {
+            InventoryForm inventoryForm = new InventoryForm();
+            inventoryForm.Show();
+            this.Hide();
+        }
+
+        private void dgvFromDB_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            typeLbl.Text = "Ammunition Type";
+            AddBtn.Show();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace Military_RPG
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvFromDB_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
@@ -26,8 +26,21 @@ namespace Military_RPG
         private void AirCraft_Load(object sender, EventArgs e)
         {
             DataHandler inventoryData = new DataHandler();
-            dataGridView1.DataSource = inventoryData.populateAirCraftDGV();
+            dgvFromDB.DataSource = inventoryData.populateAirCraftDGV();
 
         }
+
+        private void SubmitBtn_Click(object sender, EventArgs e)
+        {
+
+            //Save to DB
+
+            //Open New Form, close current
+            AmmunitionForm ammunitionForm = new AmmunitionForm();
+            ammunitionForm.Show();
+            this.Hide();
+           
+        }
+
     }
 }
