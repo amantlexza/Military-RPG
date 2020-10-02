@@ -1,47 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Military_RPG
+﻿namespace Military_RPG
 {
-    public partial class AirCraft : Form
+    public class AirCraft
     {
-        public AirCraft()
+        //Fields 
+        int _airCraftID;
+        string _airCraftName;
+        float _fuel;
+        float _float;
+        float _speed;
+        float _maxWeight;
+        int _craftTypeID;
+
+
+        //Properties 
+        public int AirCraftID { get => this._airCraftID; set => this._airCraftID = value; }
+        public string AirCraftName { get => this._airCraftName; set => this._airCraftName = value; }
+        public float Fuel { get => this._fuel; set => this._fuel = value; }
+        public float Speed { get => this._speed; set => this._speed = value; }
+        public float MaxWeight { get => this._maxWeight; set => this._maxWeight = value; }
+        public int CraftypeId { get => this._craftTypeID; set => this._craftTypeID = value; }
+
+
+
+
+        //Default constructor 
+        public AirCraft() { }
+
+        //Paramatized constructor 
+        public AirCraft(int airCraftID, string airCraftName, float fuel, float speed, float maxWeight, int craftTypeID) 
         {
-            InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void AirCraft_Load(object sender, EventArgs e)
-        {
-            SqlConnection connection = new SqlConnection(@"Server=DESKTOP-LATTHOF\AMANTLE; Initial Catalog=MilitaryDB; Integrated Security=SSPI");
-            try
-            {
-                connection.Open();
-                SqlCommand command = new SqlCommand("Select * From Aircraft", connection);
-                SqlDataReader reader = command.ExecuteReader();
-                BindingSource source = new BindingSource();
-                source.DataSource = reader;
-                dataGridView1.DataSource = source;
-                connection.Close();
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message);
-            }
-
+            this._airCraftID = airCraftID;
+            this._airCraftName = airCraftName;
+            this._fuel = fuel;
+            this._speed = speed;
+            this._maxWeight = maxWeight;
+            this._craftTypeID = craftTypeID;
         }
     }
-}
+
+ }

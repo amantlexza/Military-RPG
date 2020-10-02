@@ -46,35 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirCraft.cs">
+    <Compile Include="AirCraft.cs" />
+    <Compile Include="AirCraftForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AirCraft.Designer.cs">
-      <DependentUpon>AirCraft.cs</DependentUpon>
+    <Compile Include="AirCraftForm.Designer.cs">
+      <DependentUpon>AirCraftForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataBinding.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="DataHandler.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventory.cs">
+    <Compile Include="InventoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inventory.Designer.cs">
-      <DependentUpon>Inventory.cs</DependentUpon>
+    <Compile Include="InventoryForm.Designer.cs">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AirCraft.resx">
-      <DependentUpon>AirCraft.cs</DependentUpon>
+    <EmbeddedResource Include="AirCraftForm.resx">
+      <DependentUpon>AirCraftForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inventory.resx">
-      <DependentUpon>Inventory.cs</DependentUpon>
+    <EmbeddedResource Include="InventoryForm.resx">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

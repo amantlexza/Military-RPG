@@ -1,6 +1,6 @@
 ﻿namespace Military_RPG
 {
-    partial class AirCraft
+    partial class AirCraftForm
     {
         /// <summary>
         /// Required designer variable.

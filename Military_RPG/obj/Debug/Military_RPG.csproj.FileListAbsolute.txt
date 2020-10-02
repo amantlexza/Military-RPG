@@ -1,5 +1,4 @@
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.csprojAssemblyReference.cache
-C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.AirCraft.resources
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.Form1.resources
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.Properties.Resources.resources
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.csproj.GenerateResource.cache
@@ -9,4 +8,5 @@ C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\bin\Debug\Military_RPG.ex
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\bin\Debug\Military_RPG.pdb
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.exe
 C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.pdb
-C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.Inventory.resources
+C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.AirCraftForm.resources
+C:\Users\HP\Documents\GitHub\Military-RPG\Military_RPG\obj\Debug\Military_RPG.InventoryForm.resources
