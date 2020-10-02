@@ -27,6 +27,15 @@ namespace Military_RPG
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Populate type lbl
+            Name.Text = "Inventory Name";
+            Weight.Text = "Weight";
+            // show button
+            AddBtn.Show();
+            //Declare object 
+            DataGridViewRow row = dgvFromDB.Rows[e.RowIndex];
+            nameLbl.Text = row.Cells[1].Value.ToString();
+            weightLbl.Text = row.Cells[1].Value.ToString();
 
         }
 
