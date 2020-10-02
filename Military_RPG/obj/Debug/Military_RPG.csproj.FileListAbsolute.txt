@@ -1,0 +1,10 @@
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\bin\Debug\Military_RPG.exe.config
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\bin\Debug\Military_RPG.exe
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\bin\Debug\Military_RPG.pdb
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.Form1.resources
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.Properties.Resources.resources
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.csproj.GenerateResource.cache
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.csproj.CoreCompileInputs.cache
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.exe
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.pdb
+C:\Users\nomsimbenge2\Desktop\Belgium Campus\Assignments\2nd Year\PRG282\Project\Military_RPG\obj\Debug\Military_RPG.csprojAssemblyReference.cache
