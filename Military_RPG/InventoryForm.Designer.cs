@@ -33,6 +33,7 @@
             this.dgvToDB = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.BackBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFromDB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvToDB)).BeginInit();
             this.SuspendLayout();
@@ -69,7 +70,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 446);
+            this.button1.Location = new System.Drawing.Point(395, 446);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 44);
             this.button1.TabIndex = 7;
@@ -86,12 +87,23 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Click on the list below to select as much ammo as you\'d like";
             // 
+            // BackBtn
+            // 
+            this.BackBtn.Location = new System.Drawing.Point(253, 446);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(136, 44);
+            this.BackBtn.TabIndex = 9;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
+            // 
             // InventoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Olive;
             this.ClientSize = new System.Drawing.Size(804, 502);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvToDB);
@@ -114,5 +126,6 @@
         private System.Windows.Forms.DataGridView dgvToDB;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BackBtn;
     }
 }

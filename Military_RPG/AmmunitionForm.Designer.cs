@@ -35,6 +35,7 @@
             this.AddBtn = new System.Windows.Forms.Button();
             this.typeLbl = new System.Windows.Forms.Label();
             this.AmmunitionText = new System.Windows.Forms.Label();
+            this.BackBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFromDB)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             // 
             // ContBtn
             // 
-            this.ContBtn.Location = new System.Drawing.Point(536, 323);
+            this.ContBtn.Location = new System.Drawing.Point(643, 396);
             this.ContBtn.Name = "ContBtn";
             this.ContBtn.Size = new System.Drawing.Size(136, 44);
             this.ContBtn.TabIndex = 3;
@@ -105,12 +106,23 @@
             this.AmmunitionText.Size = new System.Drawing.Size(0, 13);
             this.AmmunitionText.TabIndex = 7;
             // 
+            // BackBtn
+            // 
+            this.BackBtn.Location = new System.Drawing.Point(475, 396);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(136, 44);
+            this.BackBtn.TabIndex = 8;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
+            // 
             // AmmunitionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Olive;
             this.ClientSize = new System.Drawing.Size(804, 502);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.AmmunitionText);
             this.Controls.Add(this.typeLbl);
             this.Controls.Add(this.AddBtn);
@@ -136,5 +148,6 @@
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Label typeLbl;
         private System.Windows.Forms.Label AmmunitionText;
+        private System.Windows.Forms.Button BackBtn;
     }
 }

@@ -37,13 +37,14 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.airCraftLbl = new System.Windows.Forms.Label();
+            this.fuelLbl = new System.Windows.Forms.Label();
+            this.altitudeLbl = new System.Windows.Forms.Label();
+            this.speedLbl = new System.Windows.Forms.Label();
+            this.maxWeightLbl = new System.Windows.Forms.Label();
+            this.airCraftTypeLbl = new System.Windows.Forms.Label();
             this.SubmitBtn = new System.Windows.Forms.Button();
+            this.BackBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFromDB)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,53 +133,53 @@
             this.label9.TabIndex = 13;
             this.label9.Text = "Aircraft Type";
             // 
-            // label11
+            // airCraftLbl
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(16, 381);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 13);
-            this.label11.TabIndex = 14;
+            this.airCraftLbl.AutoSize = true;
+            this.airCraftLbl.Location = new System.Drawing.Point(16, 381);
+            this.airCraftLbl.Name = "airCraftLbl";
+            this.airCraftLbl.Size = new System.Drawing.Size(0, 13);
+            this.airCraftLbl.TabIndex = 14;
             // 
-            // label12
+            // fuelLbl
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(105, 381);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(0, 13);
-            this.label12.TabIndex = 15;
+            this.fuelLbl.AutoSize = true;
+            this.fuelLbl.Location = new System.Drawing.Point(105, 381);
+            this.fuelLbl.Name = "fuelLbl";
+            this.fuelLbl.Size = new System.Drawing.Size(0, 13);
+            this.fuelLbl.TabIndex = 15;
             // 
-            // label13
+            // altitudeLbl
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(209, 381);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(0, 13);
-            this.label13.TabIndex = 17;
+            this.altitudeLbl.AutoSize = true;
+            this.altitudeLbl.Location = new System.Drawing.Point(209, 381);
+            this.altitudeLbl.Name = "altitudeLbl";
+            this.altitudeLbl.Size = new System.Drawing.Size(0, 13);
+            this.altitudeLbl.TabIndex = 17;
             // 
-            // label14
+            // speedLbl
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(319, 381);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(0, 13);
-            this.label14.TabIndex = 18;
+            this.speedLbl.AutoSize = true;
+            this.speedLbl.Location = new System.Drawing.Point(319, 381);
+            this.speedLbl.Name = "speedLbl";
+            this.speedLbl.Size = new System.Drawing.Size(0, 13);
+            this.speedLbl.TabIndex = 18;
             // 
-            // label15
+            // maxWeightLbl
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(450, 381);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(0, 13);
-            this.label15.TabIndex = 19;
+            this.maxWeightLbl.AutoSize = true;
+            this.maxWeightLbl.Location = new System.Drawing.Point(450, 381);
+            this.maxWeightLbl.Name = "maxWeightLbl";
+            this.maxWeightLbl.Size = new System.Drawing.Size(0, 13);
+            this.maxWeightLbl.TabIndex = 19;
             // 
-            // label16
+            // airCraftTypeLbl
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(644, 381);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(0, 13);
-            this.label16.TabIndex = 20;
+            this.airCraftTypeLbl.AutoSize = true;
+            this.airCraftTypeLbl.Location = new System.Drawing.Point(644, 381);
+            this.airCraftTypeLbl.Name = "airCraftTypeLbl";
+            this.airCraftTypeLbl.Size = new System.Drawing.Size(0, 13);
+            this.airCraftTypeLbl.TabIndex = 20;
             // 
             // SubmitBtn
             // 
@@ -190,19 +191,29 @@
             this.SubmitBtn.UseVisualStyleBackColor = true;
             this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
+            // BackBtn
+            // 
+            this.BackBtn.Location = new System.Drawing.Point(505, 439);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(136, 44);
+            this.BackBtn.TabIndex = 22;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.UseVisualStyleBackColor = true;
+            // 
             // AirCraftForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Olive;
             this.ClientSize = new System.Drawing.Size(804, 502);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.SubmitBtn);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.airCraftTypeLbl);
+            this.Controls.Add(this.maxWeightLbl);
+            this.Controls.Add(this.speedLbl);
+            this.Controls.Add(this.altitudeLbl);
+            this.Controls.Add(this.fuelLbl);
+            this.Controls.Add(this.airCraftLbl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -232,12 +243,13 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label airCraftLbl;
+        private System.Windows.Forms.Label fuelLbl;
+        private System.Windows.Forms.Label altitudeLbl;
+        private System.Windows.Forms.Label speedLbl;
+        private System.Windows.Forms.Label maxWeightLbl;
+        private System.Windows.Forms.Label airCraftTypeLbl;
         private System.Windows.Forms.Button SubmitBtn;
+        private System.Windows.Forms.Button BackBtn;
     }
 }
