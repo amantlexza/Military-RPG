@@ -16,7 +16,7 @@ namespace Military_RPG
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AirCraftForm());
+            Application.Run(new InventoryForm());
         }
     }
 }

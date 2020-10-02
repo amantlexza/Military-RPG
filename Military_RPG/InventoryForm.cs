@@ -21,7 +21,7 @@ namespace Military_RPG
         private void Inventory_Load(object sender, EventArgs e)
         {
             DataHandler inventoryData = new DataHandler();
-            dataGridView1.DataSource = inventoryData.populateInventoryDGV();
+            dgvFromDB.DataSource = inventoryData.populateInventoryDGV();
 
         }
 

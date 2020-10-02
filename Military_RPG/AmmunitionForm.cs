@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Military_RPG
 {
-    public partial class AirCraftForm : Form
+    public partial class AmmunitionForm : Form
     {
-        public AirCraftForm()
+        public AmmunitionForm()
         {
             InitializeComponent();
         }
@@ -23,11 +22,10 @@ namespace Military_RPG
 
         }
 
-        private void AirCraft_Load(object sender, EventArgs e)
+        private void AmmunitionForm_Load(object sender, EventArgs e)
         {
             DataHandler inventoryData = new DataHandler();
-            dataGridView1.DataSource = inventoryData.populateAirCraftDGV();
-
+            dgvFromDB.DataSource = inventoryData.populateAmmoDGV();
         }
     }
 }

@@ -6,7 +6,6 @@
         int _airCraftID;
         string _airCraftName;
         float _fuel;
-        float _float;
         float _speed;
         float _maxWeight;
         int _craftTypeID;
