@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +8,14 @@ using System.Windows.Forms;
 
 namespace Military_RPG
 {
-    public partial class Obstacles : Form
+    public class DataHandler 
     {
-        public Obstacles()
+        public static void ShowCrafts()
         {
-            InitializeComponent();
+            
+
         }
+
+      
     }
 }
